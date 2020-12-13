@@ -1,0 +1,9 @@
+Se instalo jdk,ide eclipse ide ee for developer, postman, postgres y spring tools (Eclipse MarketPlace - Help)
+
+--Dependencias usadas en el proyecto
+spring web(Servicios rest)
+spring data jpa(api persistencia con hibernate)
+mysql o postgres(BD)
+spring boot devtools(cualquier cambio de nuestro clases se actualiza en nuestro servidor y hace el deploy de forma automatica)
+
+--spring data jpa se usa CrudRepository que posee una plantilla crud para consultas basicas

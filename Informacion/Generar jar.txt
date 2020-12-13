@@ -1,0 +1,14 @@
+Requisitos para instalar el jar en una maquiena
+	-java
+	-jdk
+	-postgres(bd)
+
+*modificar el cors con la ip de produccion(CONTROLADORES Y ResourceServerConfig)
+*modificar el import.sql cambiando en propiedades la codificacion del archivo a (ISO-8859-1 O UTF8)(cambiar las tildes y caracteres especiales)
+*properties colocar las credenciales de la Base De Datos
+*dirigirse en el archivo maven por consola y ejecutar el comando'.\mvnw.cmd clean package'
+	-ejecutar la consola como administrador
+	-verificar los espacios en la ruta
+	-verificar que no se quede trabado
+*ejecutar el jar una vez que muestre build success
+	-java -jar .\target\spring...jar
